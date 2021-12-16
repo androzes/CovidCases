@@ -10,7 +10,7 @@ This is an api server that stores and fetches the covid cases store by state
     ```
 5. go run . 
 
-# API docummenatation
+# API documentation
 TODO
 
 
