@@ -1,5 +1,5 @@
 # CovidCases
-This is an api server that stores and fetches the covid cases store by state
+This is an api server that stores and fetches the covid cases by state
 
 # Steps to run
 1. go get ..
