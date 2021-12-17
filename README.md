@@ -8,6 +8,8 @@ This is an api server that stores and fetches the covid cases store by state
     ```
     LOCATIONIQ_API_KEY = <your-token>
     ```
+    Get your api key for geocode from https://locationiq.com/register
+
 5. go run . 
 
 # API documentation
@@ -17,7 +19,8 @@ TODO
 
 # Improvements
  * Swagger api documentation
- * Add Configuration 
+ * Add configuration parameters
  * Add api caching
  * Deploy to heroku
+ * Setup environment in docker
 
