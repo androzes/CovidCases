@@ -13,9 +13,36 @@ This is an api server that stores and fetches the covid cases store by state
 5. go run . 
 
 # API documentation
-TODO
 
+1. Return the covid cases for user location
 
+    GET /covid/user/{lat},{lon}
+
+    Response (JSON):
+
+    ```
+    "state": {
+        "code": "UP",
+        "name": "Uttar Pradesh"
+        "num_covid_cases": 26,
+        "last_updated": "2021-01-01T15:30:00+05:30"
+    },
+    "country": {
+        "code": "IN",
+        "name": "India",
+        "num_covid_cases": 1126,
+        "last_updated": "2021-01-05T14:26:55+05:30"
+    }
+    ```
+    
+2. Update the covid data from source
+    
+    POST /covid/update
+
+    Response:
+    ```
+    "Done"
+    ```
 
 # Improvements
  * Swagger api documentation
